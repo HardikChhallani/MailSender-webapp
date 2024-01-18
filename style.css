@@ -68,9 +68,12 @@ body{
     width: 100vw;
     color: #ffffff;
 }
+.foot-content{
+    display: flex;
+}
 .foot-content-logo{
     font-family: lemon;
-    font-size: 6rem;
+    font-size: 4rem;
 }
 .foot-content-pricing a {
     text-decoration: none;
