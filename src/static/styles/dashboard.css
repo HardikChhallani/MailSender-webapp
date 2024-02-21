@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;800;900&display=swap');
+
+/* Root Variable */
+:root{
+    --color-primary : #000000;
+    --color-white : #fff;
+    --color-success : #41f1b6;
+    --color-warning : #ff77b6;
+    --color-btn-bg : #0f172a;
+    --color-light : linear-gradient(to bottom,#1f4dd8,#7c22ce);
+    --card-border-radius : 2rem;
+    --border-radius-1 : 0.4rem;
+    --border-radius-2 : 0.8rem;
+    --border-radius-3 : 1.2rem;
+
+    --card-padding : 1.8rem;
+    --padding-1 : 1.2rem;
+
+    --box-shadow : 0 2rem 3rem var(--color-light);
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    text-decoration: none;
+    border:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    background: var(--color-light);
+    user-select: none;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    color: var(--color-white);
+    background: linear-gradient(to bottom,#000000,
+                            0%,#0d0d0d,95%,#3f2459);
+}
+/* container has grid css */
+.container{
+    display: grid;
+    width: 100vw;
+    margin: 0 auto;
+    grid-template-columns: 50% auto;
+}
+a{
+    color: var(--color-white);
+}
+h1{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+h4{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #94a3b8;
+}
+small{
+    font-size: 0.75rem;
+}
+.profile-photo{
+    width: 2.8rem;
+    height: 2.8rem;
+    overflow-x: hidden;
+    border-radius: 50%;
+}
+.danger{
+    color: var(--color-warning);
+}
+.success{
+    color: var(--color-success);
+}
+.bg-color{
+    color: var(--color-btn-bg);
+}
+/* Main Section */
+main{
+    height: 100vh;
+    border-right: 0.5px solid var(--color-btn-bg);
+}
+.header{
+    background: linear-gradient(to right,#1f4dd8,#7c22ce);
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+main .input-reset{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin:2rem 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+main .platform{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    margin-left: 3rem;
+}
+main .platform-images{
+    width : 6rem;
+    height: 6rem;
+    border: 1px solid var(--color-btn-bg);
+    border-radius: var(--border-radius-2);
+    overflow-x: auto;
+    font-size: 1rem;
+    font-weight: 500;
+}
+main #gmail{
+    border: 2px solid white;
+}
+main .platform-images img{
+    width: 4rem;
+    height: 4rem;
+}
+main .instructions{
+    border: 02px solid #7c22ce;
+    border-radius: var(--border-radius-2);
+    margin: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 2rem;
+}
+main .link-apppassword{
+    color: #7c22ce;
+}
+section .right-header{
+    background: linear-gradient(to right,#7c22ce,#1f4dd8);
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+form .input{
+    font-size: 1.4rem;
+    margin: 2rem;
+    display: flex;
+}
+form .input-area{
+    background: #0f172a;
+    border: 1px solid white;
+    border-radius: var(--border-radius-1);
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+}
+form textarea{
+    resize: vertical;
+    width: 50%;
+    height: 75px;
+    max-height: 400px;
+}
+form .list-instruction{
+    color: rgb(186, 188, 206);
+    font-size: 1.16rem;
+    border: 0.5px solid #7c22ce;
+    border-radius: var(--border-radius-1);
+    padding: 0.6rem;
+}
+form #Send-mail-btn{
+    background: linear-gradient(to right,#1f4dd8,#7c22ce);
+    margin-top: 2rem;
+    width: 50%;
+    height: 3rem;
+    border-radius: var(--border-radius-1);
+    color: var(--color-white);
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
