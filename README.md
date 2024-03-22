@@ -2,8 +2,7 @@
 
 Welcome to MailSender, a web application that allows you to effortlessly send emails with just a few clicks. This repository contains all the necessary files to deploy and use the MailSender web app.
 
-**credits @HardikChhallani
-**
+#credits @HardikChhallani
 
 ## Features
 - Send emails to recipients with ease.
@@ -53,8 +52,8 @@ For any queries or issues, feel free to [open an issue](https://github.com/Hardi
 ## Contributing
 Contributions are welcome! If you'd like to improve MailSender, feel free to fork the repository and submit a pull request.
 
-**credits @HardikChhallani
-**
+#credits @HardikChhallani
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
